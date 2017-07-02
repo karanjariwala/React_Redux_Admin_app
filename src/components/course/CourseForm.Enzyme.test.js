@@ -6,7 +6,9 @@ import CourseForm from './CourseForm';
 
 function setup(saving){
   const props={
-    course:{},saving:saving,errors:{},onSave:()=>{},onChange:()=>{}
+    course:{},saving:saving,errors:{},
+    onSave:()=>{},
+    onChange:()=>{}
   }
 
   return shallow(<CourseForm {...props}/>);
