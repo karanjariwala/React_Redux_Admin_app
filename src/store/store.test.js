@@ -21,7 +21,6 @@ describe('Store', function() {
     const expected = {
       title: "Clean Code"
     };
-
     expect(actual).toEqual(expected);
   });
 });
